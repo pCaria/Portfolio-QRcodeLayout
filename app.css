@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 900px;
+    width: 100vw;
+    background-color: hsl(212, 45%, 89%);
+    font-family: Outfit;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.mainFrame {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 400px;
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.innerSquare {
+    display: flex;
+    height: 360px;
+    width: 360px;
+    margin-top: 20px;
+}
+
+.innerSquare img {
+    border-radius: 15px;
+}
+
+.textBox {
+    display: flex;
+    height: 160px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.mainText {
+    display: flex;
+    height: 50%;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.otherText {
+    display: flex;
+    height: 50%;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+    display: flex;
+    justify-self: flex-end;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
